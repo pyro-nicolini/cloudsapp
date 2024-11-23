@@ -1,0 +1,50 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+    background-size: contain;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.ciudad {
+    background-color: rgba(0, 0, 0, 0.562);
+    color: beige;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    width: 1200px;
+}
+
+#city {
+    height: 2rem;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.reset-button {
+    background-color: rgb(255, 46, 92);
+}
+
+h1 {
+    color: wheat;
+    background-color: rgb(143, 73, 24);
+    padding: 1rem;
+    border-radius: 10px;
+}
