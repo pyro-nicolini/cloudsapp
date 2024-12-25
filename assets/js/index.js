@@ -11,6 +11,8 @@ form.addEventListener("submit", function (event) {
   }
 
   getWeatherData(cityName).then((weatherData) => {
+    
+    
     if (!weatherData || !weatherData.main) {
       alert("No se pudo obtener información climática para esta ciudad.");
       return;
@@ -97,7 +99,7 @@ function getWeatherData(cityName) {
       if (!response.ok) {
         throw new Error(`Error en la solicitud: ${response.status}`);
       }
-      return response.json();
+      return (response.json());
     })
     .catch((error) => {
       console.error("Hubo un problema con la solicitud del clima:", error);

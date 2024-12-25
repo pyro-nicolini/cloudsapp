@@ -12,6 +12,9 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-image: url('../img/wallp.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .ciudad {
@@ -47,4 +50,9 @@ h1 {
     background-color: rgb(143, 73, 24);
     padding: 1rem;
     border-radius: 10px;
+}
+
+form {
+    background-color: dddwrgba(16, 0, 137, 0.547);
+    padding: 1rem;
 }
